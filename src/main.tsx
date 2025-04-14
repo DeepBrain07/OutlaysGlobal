@@ -13,12 +13,13 @@ function App() {
       <div className="text-white flex flex-col  bg-[#101222] w-[100%] h-full p-4 sm:p-10 relative">
         {/* Header */}
         <div className="flex gap-4 items-center justify-between">
-          <div className="flex flex-wrap sm:flex-nowrap gap-2 sm:gap-8 w-fit justify-center items-center">
-            <img src={logo} alt="logo" className="w-[100px] sm:w-[150px]" />
-            <div className="flex w-[100%] flex-col justify-center items-center text-center font-extrabold text-[18px] sm:text-[30px] text-[#9B621D]">
-              <h2>OUTLAYS GLOBAL <br/> SERVICES</h2>
-              <div className="flex items-start flex-wrap">
-                <span className="text-white pt-2 font-normal text-[10px] sm:text-[16px]">
+          <div className="flex  sm:flex-nowrap gap-2 sm:gap-8 w-fit justify-center items-center">
+            <img src={logo} alt="logo" className="w-[40px] sm:w-[150px]" />
+            <div className="flex w-[100%] flex-col justify-center items-center text-center font-extrabold text-[16px] sm:text-[30px] text-[#9B621D]">
+              <h2>OUTLAYS GLOBAL</h2>
+              <div className="flex items-start gap-2 flex-wrap">
+                <h2>SERVICES</h2>
+                <span className="text-white pt-1 sm:pt-2 font-normal text-[8px] sm:text-[16px]">
                   Live a Better Life
                 </span>
               </div>
@@ -27,7 +28,7 @@ function App() {
 
           {/* Hamburger Button (Visible on Small Screens) */}
           <button
-            className="fixed right-[20px] top-[50px] md:hidden text-white text-2xl focus:outline-none"
+            className="fixed right-[20px] top-[20px] md:hidden text-white text-2xl focus:outline-none"
             onClick={() => setIsOpen(!isOpen)}
           >
             ☰
@@ -91,7 +92,7 @@ function App() {
                 className="relative pt-20 w-[250px] sm:w-[300px] h-[250px] sm:h-[280px] bg-cover bg-center flex items-center justify-center text-white font-bold text-lg"
                 style={{ backgroundImage: `url(${chart})` }}
               >
-                <span className="font-semibold text-center">90% <br/> Rating</span>
+                {/* <span className="font-semibold text-center">90% <br/> Rating</span> */}
               </div>
             </div>
 
