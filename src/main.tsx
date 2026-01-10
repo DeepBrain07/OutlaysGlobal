@@ -195,7 +195,7 @@ function App() {
                 <Button text="Contact Us" className="text-[#9B621D] px-5 mt-4" 
                   onClick={() => {
                     window.open(
-                      "https://wa.me/447453679518?text=" + encodeURIComponent(
+                      "https://wa.me/447728024894?text=" + encodeURIComponent(
                         "Hello, I’m interested in learning more about Outlays Global Services and how I can grow my capital. Could you provide more details?"
                       ), 
                       "_blank"
