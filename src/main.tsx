@@ -71,7 +71,7 @@ function App() {
               <Button text="Get Started" className="text-[#9B621D] px-5 mt-4"
                 onClick={() => {
                   window.open(
-                    "https://wa.me/447453679518?text=" + encodeURIComponent(
+                    "https://wa.me/447728024894?text=" + encodeURIComponent(
                       "Hello, I’m interested in learning more about Outlays Global Services and how I can grow my capital. Could you provide more details?"
                     ), 
                     "_blank"
@@ -207,8 +207,8 @@ function App() {
 
             <div className="p-6 rounded-lg flex justify-center gap-4 flex-col bg-[#0F26374A]">
               <p className="font-bold text-2xl tracking-wide text-center" >This is only our Official mail and <br/> WhatsApp Number</p>
-              <p>➜ <span className="px-4 sm:px-6 font-bold">WhatsApp:</span> +447453679518</p>
-              <p>➜ <span className="px-4 sm:px-6 font-bold">Email:</span> outlaysgroup@gmail.com</p>
+              <p>➜ <span className="px-4 sm:px-6 font-bold">WhatsApp:</span> +447728024894</p>
+              <p>➜ <span className="px-4 sm:px-6 font-bold">Email:</span> outlaysfx@gmail.com</p>
             </div>
 
             <div className="w-full flex font-bold justify-center"><p className="tracking-wide mt-4">Linking You to a Brighter Tomorrow!</p></div>
